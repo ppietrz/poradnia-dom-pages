@@ -1,0 +1,1 @@
+import{e as n,C as r,c,D as u,E as l,o as i}from"./HL-CqUOe.js";import{s as p}from"./DxE07ryd.js";const g=n({__name:"[slug]",setup(m){const t=u(),o=l(),s=String(t.params.slug||""),a=p.find(e=>e.slug===s||e.aliases?.includes(s));return r(()=>{o.replace(`/${a?.slug||s}`)}),(e,_)=>(i(),c("div"))}});export{g as default};
